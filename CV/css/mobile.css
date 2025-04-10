@@ -1,0 +1,32 @@
+/* Grid */
+
+
+.grid-layout{
+    grid-template-areas:
+      "header"
+      "main" 
+      "picture" 
+      "aside" 
+      "footer";
+      grid-template-rows: auto;
+      grid-template-columns: auto;
+}
+
+
+
+header h1{
+    font-size: 4rem;
+    letter-spacing: 1.5rem;
+    }
+
+main{
+    padding: 5rem 1.5rem;
+}
+
+footer form input {
+    min-width: 100px;
+}
+
+footer {
+    padding: 5rem 1.5rem;
+}
