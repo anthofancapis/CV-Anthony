@@ -36,3 +36,9 @@
     }
     
 }
+
+@keyframes writing_mobile{
+    100%{
+        top: -320px;
+    }
+}
