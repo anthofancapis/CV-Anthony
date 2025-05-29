@@ -23,3 +23,16 @@
         transform: rotate(0deg);
     }
 }
+
+@keyframes writing{
+    100%{
+        top: -360px;
+    }
+}
+
+@keyframes typing {
+    40%, 60%{
+        left: calc(100% + 30px);
+    }
+    
+}
